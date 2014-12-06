@@ -1,4 +1,4 @@
-# PyEulerToOrgMode
+# EulerPyToOrgMode
 
 ## TL;DR
 

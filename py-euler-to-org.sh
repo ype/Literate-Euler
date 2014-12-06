@@ -47,7 +47,7 @@ get_all_eulers() {
 }
 
 convert_all_eulers() {
-    echo "#+TITLE: Project Euler - Python OrgBabel\n" > py_euler.org
+    echo "#+TITLE: Literate Euler in OrgMode\n" > py_euler.org
     for pyFile in *.py
     do
         pyFileNoZeroes=$(echo $pyFile | sed 's/^0*//')
@@ -56,13 +56,18 @@ convert_all_eulers() {
             echo "File Not Found: " "${pyFile}"
         else
             echo "File Found: " "${pyFile}"
-            echo "Adding File too py_euler.org"
+            echo "Adding File to py_euler.org"
+            echo "Babel Block Settings: "
+            echo "\tPython"
+            echo "\t:tangle tangled/${pyFile}"
+            echo "\t:results output value :session"
+            echo "\t:mkdirp yes "
             echo "========================================"
 
-            echo "* Problem ${pyFileNoZeroes/.py/} " >> py_euler.org
-            echo '#+BEGIN_SRC python :tangle tangled/'${pyFile} ':mkdirp yes :shebang "#!/usr/bin/env python3"' >> py_euler.org
+            echo "* TODO Problem ${pyFileNoZeroes/.py/} " >> py_euler.org
+            echo "#+begin_src python :tangle tangled/${pyFile} :results output value :session :mkdirp yes" >> py_euler.org
             cat ${pyFile} | awk '{print $0}' >> py_euler.org
-            echo "#+END_SRC\n" >> py_euler.org
+            echo "#+end_src\n" >> py_euler.org
         fi
     done
     rm *.py
@@ -81,13 +86,15 @@ print_help() {
     info "EulerPy to OrgMode Converter"; echo ""
     info " "; echo ""
     info "Optional Arguments: "; echo ""
-    info "  -h, help\t Print This Help Message"; echo ""
-    info "  -c, convert\t Convert to OrgFile"; echo ""
-    info "  -g, get\t Get all Euler Files"; echo ""
-    info "  -b, bak\t Backup Org and Py files"; echo ""
+    info "  [help\t-h]  Print This Help Message"; echo ""
+    info "  [get\t-g]  Get all Euler Files"; echo ""
+    info "  [conv\t-c]  Convert to .org Files"; echo ""
+    info "  [all\t-a]  Get and Convert"; echo ""
+    info "  [bak\t-b]  TODO: Hacky Backup"; echo ""
 }
 
-if [[ $# -eq 0 ]] ; then
+if [[ $# -eq 0 ]]
+then
     print_help
     exit 0
 fi
@@ -106,8 +113,13 @@ for i in "$@"; do
             get_all_eulers
             exit 0
             ;;
-        -b|bak)
+        -b|backup)
             backup_all
+            exit 0
+            ;;
+        -a|all)
+            get_all_eulers
+            convert_all_eulers
             exit 0
             ;;
         *)

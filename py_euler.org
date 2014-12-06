@@ -1,7 +1,7 @@
-#+TITLE: Project Euler - Python OrgBabel
+#+TITLE: Literate Euler in OrgMode
 
 * Problem 1 
-#+BEGIN_SRC python :tangle tangled/001.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/001.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 1
 =======================
@@ -13,10 +13,10 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 2 
-#+BEGIN_SRC python :tangle tangled/002.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/002.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 2
 =======================
@@ -31,10 +31,10 @@ exceed four million.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 3 
-#+BEGIN_SRC python :tangle tangled/003.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/003.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 3
 =======================
@@ -45,10 +45,10 @@ What is the largest prime factor of the number 600851475143?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 4 
-#+BEGIN_SRC python :tangle tangled/004.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/004.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 4
 =======================
@@ -60,10 +60,10 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 5 
-#+BEGIN_SRC python :tangle tangled/005.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/005.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 5
 =======================
@@ -76,10 +76,10 @@ from 1 to 20?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 6 
-#+BEGIN_SRC python :tangle tangled/006.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/006.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 6
 =======================
@@ -98,10 +98,10 @@ hundred natural numbers and the square of the sum.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 7 
-#+BEGIN_SRC python :tangle tangled/007.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/007.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 7
 =======================
@@ -113,10 +113,10 @@ What is the 10001st prime number?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 8 
-#+BEGIN_SRC python :tangle tangled/008.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/008.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 8
 =======================
@@ -147,10 +147,10 @@ number.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 9 
-#+BEGIN_SRC python :tangle tangled/009.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/009.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 9
 =======================
@@ -166,10 +166,10 @@ Find the product abc.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 10 
-#+BEGIN_SRC python :tangle tangled/010.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/010.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 10
 ========================
@@ -180,10 +180,10 @@ Find the sum of all the primes below two million.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 11 
-#+BEGIN_SRC python :tangle tangled/011.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/011.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 11
 ========================
@@ -219,10 +219,10 @@ What is the greatest product of four adjacent numbers in any direction
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 12 
-#+BEGIN_SRC python :tangle tangled/012.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/012.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 12
 ========================
@@ -251,10 +251,10 @@ divisors?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 13 
-#+BEGIN_SRC python :tangle tangled/013.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/013.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 13
 ========================
@@ -365,10 +365,10 @@ Work out the first ten digits of the sum of the following one-hundred
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 14 
-#+BEGIN_SRC python :tangle tangled/014.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/014.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 14
 ========================
@@ -393,10 +393,10 @@ NOTE: Once the chain starts the terms are allowed to go above one million.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 15 
-#+BEGIN_SRC python :tangle tangled/015.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/015.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 15
 ========================
@@ -408,10 +408,10 @@ How many routes are there through a 20 * 20 grid?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 16 
-#+BEGIN_SRC python :tangle tangled/016.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/016.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 16
 ========================
@@ -422,10 +422,10 @@ What is the sum of the digits of the number 2^1000?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 17 
-#+BEGIN_SRC python :tangle tangled/017.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/017.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 17
 ========================
@@ -443,10 +443,10 @@ with British usage.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 18 
-#+BEGIN_SRC python :tangle tangled/018.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/018.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 18
 ========================
@@ -486,10 +486,10 @@ force, and requires a clever method! ;o)
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 19 
-#+BEGIN_SRC python :tangle tangled/019.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/019.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 19
 ========================
@@ -512,10 +512,10 @@ century (1 Jan 1901 to 31 Dec 2000)?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 20 
-#+BEGIN_SRC python :tangle tangled/020.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/020.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 20
 ========================
@@ -526,10 +526,10 @@ Find the sum of the digits in the number 100!
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 21 
-#+BEGIN_SRC python :tangle tangled/021.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/021.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 21
 ========================
@@ -547,10 +547,10 @@ Evaluate the sum of all the amicable numbers under 10000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 22 
-#+BEGIN_SRC python :tangle tangled/022.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/022.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 22
 ========================
@@ -568,10 +568,10 @@ What is the total of all the name scores in the file?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 23 
-#+BEGIN_SRC python :tangle tangled/023.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/023.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 23
 ========================
@@ -598,10 +598,10 @@ sum of two abundant numbers.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 24 
-#+BEGIN_SRC python :tangle tangled/024.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/024.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 24
 ========================
@@ -618,10 +618,10 @@ What is the millionth lexicographic permutation of the digits 0, 1, 2, 3,
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 25 
-#+BEGIN_SRC python :tangle tangled/025.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/025.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 25
 ========================
@@ -651,10 +651,10 @@ What is the first term in the Fibonacci sequence to contain 1000 digits?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 26 
-#+BEGIN_SRC python :tangle tangled/026.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/026.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 26
 ========================
@@ -680,10 +680,10 @@ cycle in its decimal fraction part.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 27 
-#+BEGIN_SRC python :tangle tangled/027.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/027.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 27
 ========================
@@ -714,10 +714,10 @@ values of n, starting with n = 0.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 28 
-#+BEGIN_SRC python :tangle tangled/028.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/028.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 28
 ========================
@@ -738,10 +738,10 @@ same way?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 29 
-#+BEGIN_SRC python :tangle tangled/029.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/029.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 29
 ========================
@@ -763,10 +763,10 @@ How many distinct terms are in the sequence generated by a^b for
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 30 
-#+BEGIN_SRC python :tangle tangled/030.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/030.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 30
 ========================
@@ -787,10 +787,10 @@ powers of their digits.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 31 
-#+BEGIN_SRC python :tangle tangled/031.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/031.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 31
 ========================
@@ -808,10 +808,10 @@ How many different ways can -L-2 be made using any number of coins?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 32 
-#+BEGIN_SRC python :tangle tangled/032.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/032.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 32
 ========================
@@ -831,10 +831,10 @@ only include it once in your sum.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 33 
-#+BEGIN_SRC python :tangle tangled/033.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/033.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 33
 ========================
@@ -854,10 +854,10 @@ terms, find the value of the denominator.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 34 
-#+BEGIN_SRC python :tangle tangled/034.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/034.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 34
 ========================
@@ -871,10 +871,10 @@ Note: as 1! = 1 and 2! = 2 are not sums they are not included.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 35 
-#+BEGIN_SRC python :tangle tangled/035.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/035.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 35
 ========================
@@ -889,10 +889,10 @@ How many circular primes are there below one million?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 36 
-#+BEGIN_SRC python :tangle tangled/036.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/036.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 36
 ========================
@@ -908,10 +908,10 @@ leading zeros.)
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 37 
-#+BEGIN_SRC python :tangle tangled/037.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/037.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 37
 ========================
@@ -928,10 +928,10 @@ NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 38 
-#+BEGIN_SRC python :tangle tangled/038.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/038.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 38
 ========================
@@ -954,10 +954,10 @@ the concatenated product of an integer with (1,2, ... , n) where n > 1?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 39 
-#+BEGIN_SRC python :tangle tangled/039.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/039.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 39
 ========================
@@ -971,10 +971,10 @@ For which value of p < 1000, is the number of solutions maximised?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 40 
-#+BEGIN_SRC python :tangle tangled/040.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/040.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 40
 ========================
@@ -994,10 +994,10 @@ of the following expression.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 41 
-#+BEGIN_SRC python :tangle tangled/041.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/041.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 41
 ========================
@@ -1010,10 +1010,10 @@ What is the largest n-digit pandigital prime that exists?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 42 
-#+BEGIN_SRC python :tangle tangled/042.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/042.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 42
 ========================
@@ -1033,10 +1033,10 @@ English words, how many are triangle words?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 43 
-#+BEGIN_SRC python :tangle tangled/043.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/043.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 43
 ========================
@@ -1060,10 +1060,10 @@ Find the sum of all 0 to 9 pandigital numbers with this property.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 44 
-#+BEGIN_SRC python :tangle tangled/044.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/044.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 44
 ========================
@@ -1082,10 +1082,10 @@ the value of D?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 45 
-#+BEGIN_SRC python :tangle tangled/045.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/045.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 45
 ========================
@@ -1103,10 +1103,10 @@ Find the next triangle number that is also pentagonal and hexagonal.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 46 
-#+BEGIN_SRC python :tangle tangled/046.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/046.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 46
 ========================
@@ -1128,10 +1128,10 @@ prime and twice a square?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 47 
-#+BEGIN_SRC python :tangle tangled/047.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/047.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 47
 ========================
@@ -1153,10 +1153,10 @@ factors. What is the first of these numbers?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 48 
-#+BEGIN_SRC python :tangle tangled/048.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/048.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 48
 ========================
@@ -1167,10 +1167,10 @@ Find the last ten digits of the series, 1^1 + 2^2 + 3^3 + ... + 1000^1000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 49 
-#+BEGIN_SRC python :tangle tangled/049.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/049.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 49
 ========================
@@ -1189,10 +1189,10 @@ sequence?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 50 
-#+BEGIN_SRC python :tangle tangled/050.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/050.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 50
 ========================
@@ -1212,10 +1212,10 @@ consecutive primes?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 51 
-#+BEGIN_SRC python :tangle tangled/051.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/051.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 51
 ========================
@@ -1235,10 +1235,10 @@ prime value family.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 52 
-#+BEGIN_SRC python :tangle tangled/052.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/052.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 52
 ========================
@@ -1251,10 +1251,10 @@ contain the same digits.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 53 
-#+BEGIN_SRC python :tangle tangled/053.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/053.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 53
 ========================
@@ -1277,10 +1277,10 @@ How many values of nCr(n,r), for 1 =< n =< 100, are greater than one-million?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 54 
-#+BEGIN_SRC python :tangle tangled/054.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/054.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 54
 ========================
@@ -1336,10 +1336,10 @@ How many hands does Player 1 win?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 55 
-#+BEGIN_SRC python :tangle tangled/055.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/055.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 55
 ========================
@@ -1376,10 +1376,10 @@ theoretical nature of Lychrel numbers.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 56 
-#+BEGIN_SRC python :tangle tangled/056.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/056.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 56
 ========================
@@ -1393,10 +1393,10 @@ the maximum digital sum?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 57 
-#+BEGIN_SRC python :tangle tangled/057.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/057.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 57
 ========================
@@ -1422,10 +1422,10 @@ numerator with more digits than denominator?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 58 
-#+BEGIN_SRC python :tangle tangled/058.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/058.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 58
 ========================
@@ -1452,10 +1452,10 @@ along both diagonals first falls below 10%?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 59 
-#+BEGIN_SRC python :tangle tangled/059.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/059.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 59
 ========================
@@ -1489,10 +1489,10 @@ in the original text.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 60 
-#+BEGIN_SRC python :tangle tangled/060.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/060.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 60
 ========================
@@ -1508,10 +1508,10 @@ concatenate to produce another prime.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 61 
-#+BEGIN_SRC python :tangle tangled/061.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/061.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 61
 ========================
@@ -1545,10 +1545,10 @@ set.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 62 
-#+BEGIN_SRC python :tangle tangled/062.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/062.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 62
 ========================
@@ -1563,10 +1563,10 @@ are cube.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 63 
-#+BEGIN_SRC python :tangle tangled/063.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/063.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 63
 ========================
@@ -1578,10 +1578,10 @@ How many n-digit positive integers exist which are also an nth power?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 64 
-#+BEGIN_SRC python :tangle tangled/064.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/064.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 64
 ========================
@@ -1650,10 +1650,10 @@ How many continued fractions for N 10000 have an odd period?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 65 
-#+BEGIN_SRC python :tangle tangled/065.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/065.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 65
 ========================
@@ -1708,10 +1708,10 @@ continued fraction for e.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 66 
-#+BEGIN_SRC python :tangle tangled/066.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/066.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 66
 ========================
@@ -1743,10 +1743,10 @@ value of x is obtained.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 67 
-#+BEGIN_SRC python :tangle tangled/067.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/067.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 67
 ========================
@@ -1772,10 +1772,10 @@ efficient algorithm to solve it. ;o)
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 68 
-#+BEGIN_SRC python :tangle tangled/068.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/068.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 68
 ========================
@@ -1810,10 +1810,10 @@ a "magic" 5-gon ring?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 69 
-#+BEGIN_SRC python :tangle tangled/069.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/069.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 69
 ========================
@@ -1851,10 +1851,10 @@ Find the value of n 1,000,000 for which n/f(n) is a maximum.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 70 
-#+BEGIN_SRC python :tangle tangled/070.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/070.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 70
 ========================
@@ -1874,10 +1874,10 @@ and the ratio n/f(n) produces a minimum.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 71 
-#+BEGIN_SRC python :tangle tangled/071.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/071.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 71
 ========================
@@ -1899,10 +1899,10 @@ the left of 3/7.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 72 
-#+BEGIN_SRC python :tangle tangled/072.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/072.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 72
 ========================
@@ -1923,10 +1923,10 @@ fractions for d 1,000,000?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 73 
-#+BEGIN_SRC python :tangle tangled/073.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/073.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 73
 ========================
@@ -1947,10 +1947,10 @@ proper fractions for d 10,000?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 74 
-#+BEGIN_SRC python :tangle tangled/074.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/074.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 74
 ========================
@@ -1984,10 +1984,10 @@ sixty non-repeating terms?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 75 
-#+BEGIN_SRC python :tangle tangled/075.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/075.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 75
 ========================
@@ -2015,10 +2015,10 @@ can exactly one right angle triangle be formed?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 76 
-#+BEGIN_SRC python :tangle tangled/076.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/076.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 76
 ========================
@@ -2037,10 +2037,10 @@ two positive integers?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 77 
-#+BEGIN_SRC python :tangle tangled/077.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/077.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 77
 ========================
@@ -2059,10 +2059,10 @@ five thousand different ways?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 78 
-#+BEGIN_SRC python :tangle tangled/078.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/078.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 78
 ========================
@@ -2089,10 +2089,10 @@ Find the least value of n for which p(n) is divisible by one million.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 79 
-#+BEGIN_SRC python :tangle tangled/079.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/079.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 79
 ========================
@@ -2110,10 +2110,10 @@ length.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 80 
-#+BEGIN_SRC python :tangle tangled/080.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/080.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 80
 ========================
@@ -2131,10 +2131,10 @@ roots.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 81 
-#+BEGIN_SRC python :tangle tangled/081.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/081.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 81
 ========================
@@ -2154,10 +2154,10 @@ Find the minimal path sum, in matrix.txt, a 31K text file containing a 80 by
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 82 
-#+BEGIN_SRC python :tangle tangled/082.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/082.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 82
 ========================
@@ -2179,10 +2179,10 @@ Find the minimal path sum, in matrix.txt, a 31K text file containing a 80 by
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 83 
-#+BEGIN_SRC python :tangle tangled/083.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/083.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 83
 ========================
@@ -2206,10 +2206,10 @@ and down.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 84 
-#+BEGIN_SRC python :tangle tangled/084.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/084.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 84
 ========================
@@ -2290,10 +2290,10 @@ six-digit modal string.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 85 
-#+BEGIN_SRC python :tangle tangled/085.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/085.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 85
 ========================
@@ -2306,10 +2306,10 @@ million rectangles, find the area of the grid with the nearest solution.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 86 
-#+BEGIN_SRC python :tangle tangled/086.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/086.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 86
 ========================
@@ -2332,10 +2332,10 @@ one million.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 87 
-#+BEGIN_SRC python :tangle tangled/087.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/087.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 87
 ========================
@@ -2354,10 +2354,10 @@ prime square, prime cube, and prime fourth power?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 88 
-#+BEGIN_SRC python :tangle tangled/088.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/088.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 88
 ========================
@@ -2389,10 +2389,10 @@ What is the sum of all the minimal product-sum numbers for 2k12000?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 89 
-#+BEGIN_SRC python :tangle tangled/089.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/089.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 89
 ========================
@@ -2428,10 +2428,10 @@ FAQ Link: http://projecteuler.net/about=roman_numerals
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 90 
-#+BEGIN_SRC python :tangle tangled/090.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/090.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 90
 ========================
@@ -2470,10 +2470,10 @@ square numbers to be displayed?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 91 
-#+BEGIN_SRC python :tangle tangled/091.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/091.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 91
 ========================
@@ -2490,10 +2490,10 @@ formed?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 92 
-#+BEGIN_SRC python :tangle tangled/092.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/092.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 92
 ========================
@@ -2514,10 +2514,10 @@ How many starting numbers below ten million will arrive at 89?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 93 
-#+BEGIN_SRC python :tangle tangled/093.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/093.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 93
 ========================
@@ -2546,10 +2546,10 @@ answer as a string: abcd.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 94 
-#+BEGIN_SRC python :tangle tangled/094.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/094.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 94
 ========================
@@ -2567,10 +2567,10 @@ billion (1,000,000,000).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 95 
-#+BEGIN_SRC python :tangle tangled/095.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/095.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 95
 ========================
@@ -2593,10 +2593,10 @@ exceeding one million.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 96 
-#+BEGIN_SRC python :tangle tangled/096.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/096.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 96
 ========================
@@ -2640,10 +2640,10 @@ number found in the top left corner of the solution grid above.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 97 
-#+BEGIN_SRC python :tangle tangled/097.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/097.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 97
 ========================
@@ -2660,10 +2660,10 @@ Find the last ten digits of this prime number.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 98 
-#+BEGIN_SRC python :tangle tangled/098.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/098.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 98
 ========================
@@ -2686,10 +2686,10 @@ NOTE: All anagrams formed must be contained in the given text file.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 99 
-#+BEGIN_SRC python :tangle tangled/099.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/099.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 99
 ========================
@@ -2709,10 +2709,10 @@ given above.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 100 
-#+BEGIN_SRC python :tangle tangled/100.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/100.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 100
 =========================
@@ -2732,10 +2732,10 @@ contain.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 101 
-#+BEGIN_SRC python :tangle tangled/101.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/101.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 101
 =========================
@@ -2783,10 +2783,10 @@ Find the sum of FITs for the BOPs.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 102 
-#+BEGIN_SRC python :tangle tangled/102.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/102.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 102
 =========================
@@ -2812,10 +2812,10 @@ example given above.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 103 
-#+BEGIN_SRC python :tangle tangled/103.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/103.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 103
 =========================
@@ -2852,10 +2852,10 @@ NOTE: This problem is related to problems 105 and 106.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 104 
-#+BEGIN_SRC python :tangle tangled/104.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/104.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 104
 =========================
@@ -2875,10 +2875,10 @@ digits AND the last nine digits are 1-9 pandigital, find k.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 105 
-#+BEGIN_SRC python :tangle tangled/105.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/105.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 105
 =========================
@@ -2904,10 +2904,10 @@ NOTE: This problem is related to problems 103 and 106.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 106 
-#+BEGIN_SRC python :tangle tangled/106.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/106.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 106
 =========================
@@ -2934,10 +2934,10 @@ NOTE: This problem is related to problems 103 and 105.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 107 
-#+BEGIN_SRC python :tangle tangled/107.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/107.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 107
 =========================
@@ -2976,10 +2976,10 @@ removing redundant edges whilst ensuring that the network remains connected.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 108 
-#+BEGIN_SRC python :tangle tangled/108.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/108.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 108
 =========================
@@ -3006,10 +3006,10 @@ advised that you solve this one first.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 109 
-#+BEGIN_SRC python :tangle tangled/109.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/109.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 109
 =========================
@@ -3078,10 +3078,10 @@ How many distinct ways can a player checkout with a score less than 100?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 110 
-#+BEGIN_SRC python :tangle tangled/110.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/110.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 110
 =========================
@@ -3104,10 +3104,10 @@ a clever implementation.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 111 
-#+BEGIN_SRC python :tangle tangled/111.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/111.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 111
 =========================
@@ -3160,10 +3160,10 @@ Find the sum of all S(10, d).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 112 
-#+BEGIN_SRC python :tangle tangled/112.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/112.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 112
 =========================
@@ -3190,10 +3190,10 @@ exactly 99%.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 113 
-#+BEGIN_SRC python :tangle tangled/113.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/113.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 113
 =========================
@@ -3215,10 +3215,10 @@ How many numbers below a googol (10^100) are not bouncy?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 114 
-#+BEGIN_SRC python :tangle tangled/114.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/114.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 114
 =========================
@@ -3250,10 +3250,10 @@ measuring eight units in length you could use red (3), black (1), and red
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 115 
-#+BEGIN_SRC python :tangle tangled/115.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/115.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 115
 =========================
@@ -3281,10 +3281,10 @@ first exceeds one million.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 116 
-#+BEGIN_SRC python :tangle tangled/116.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/116.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 116
 =========================
@@ -3322,10 +3322,10 @@ NOTE: This is related to problem 117.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 117 
-#+BEGIN_SRC python :tangle tangled/117.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/117.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 117
 =========================
@@ -3353,10 +3353,10 @@ NOTE: This is related to problem 116.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 118 
-#+BEGIN_SRC python :tangle tangled/118.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/118.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 118
 =========================
@@ -3370,10 +3370,10 @@ exactly once contain only prime elements?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 119 
-#+BEGIN_SRC python :tangle tangled/119.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/119.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 119
 =========================
@@ -3391,10 +3391,10 @@ Find a[30].
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 120 
-#+BEGIN_SRC python :tangle tangled/120.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/120.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 120
 =========================
@@ -3409,10 +3409,10 @@ For 3 a 1000, find r[max].
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 121 
-#+BEGIN_SRC python :tangle tangled/121.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/121.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 121
 =========================
@@ -3437,10 +3437,10 @@ which fifteen turns are played.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 122 
-#+BEGIN_SRC python :tangle tangled/122.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/122.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 122
 =========================
@@ -3473,10 +3473,10 @@ For 1 k 200, find m(k).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 123 
-#+BEGIN_SRC python :tangle tangled/123.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/123.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 123
 =========================
@@ -3492,10 +3492,10 @@ Find the least value of n for which the remainder first exceeds 10^10.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 124 
-#+BEGIN_SRC python :tangle tangled/124.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/124.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 124
 =========================
@@ -3526,10 +3526,10 @@ If rad(n) is sorted for 1 n 100000, find E(10000).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 125 
-#+BEGIN_SRC python :tangle tangled/125.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/125.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 125
 =========================
@@ -3547,10 +3547,10 @@ and can be written as the sum of consecutive squares.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 126 
-#+BEGIN_SRC python :tangle tangled/126.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/126.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 126
 =========================
@@ -3577,10 +3577,10 @@ Find the least value of n for which C(n) = 1000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 127 
-#+BEGIN_SRC python :tangle tangled/127.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/127.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 127
 =========================
@@ -3610,10 +3610,10 @@ Find c for c < 110000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 128 
-#+BEGIN_SRC python :tangle tangled/128.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/128.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 128
 =========================
@@ -3644,10 +3644,10 @@ Find the 2000th tile in this sequence.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 129 
-#+BEGIN_SRC python :tangle tangled/129.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/129.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 129
 =========================
@@ -3666,10 +3666,10 @@ Find the least value of n for which A(n) first exceeds one-million.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 130 
-#+BEGIN_SRC python :tangle tangled/130.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/130.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 130
 =========================
@@ -3693,10 +3693,10 @@ GCD(n, 10) = 1 and n 1 is divisible by A(n).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 131 
-#+BEGIN_SRC python :tangle tangled/131.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/131.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 131
 =========================
@@ -3714,10 +3714,10 @@ How many primes below one million have this remarkable property?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 132 
-#+BEGIN_SRC python :tangle tangled/132.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/132.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 132
 =========================
@@ -3732,10 +3732,10 @@ Find the sum of the first forty prime factors of R(10^9).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 133 
-#+BEGIN_SRC python :tangle tangled/133.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/133.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 133
 =========================
@@ -3755,10 +3755,10 @@ be a factor of R(10^n).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 134 
-#+BEGIN_SRC python :tangle tangled/134.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/134.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 134
 =========================
@@ -3776,10 +3776,10 @@ Find S for every pair of consecutive primes with 5 p[1] 1000000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 135 
-#+BEGIN_SRC python :tangle tangled/135.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/135.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 135
 =========================
@@ -3798,10 +3798,10 @@ solutions?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 136 
-#+BEGIN_SRC python :tangle tangled/136.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/136.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 136
 =========================
@@ -3819,10 +3819,10 @@ How many values of n less than fifty million have exactly one solution?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 137 
-#+BEGIN_SRC python :tangle tangled/137.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/137.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 137
 =========================
@@ -3865,10 +3865,10 @@ Find the 15th golden nugget.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 138 
-#+BEGIN_SRC python :tangle tangled/138.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/138.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 138
 =========================
@@ -3888,10 +3888,10 @@ b, L are positive integers.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 139 
-#+BEGIN_SRC python :tangle tangled/139.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/139.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 139
 =========================
@@ -3913,10 +3913,10 @@ place?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 140 
-#+BEGIN_SRC python :tangle tangled/140.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/140.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 140
 =========================
@@ -3954,10 +3954,10 @@ Find the sum of the first thirty golden nuggets.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 141 
-#+BEGIN_SRC python :tangle tangled/141.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/141.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 141
 =========================
@@ -3981,10 +3981,10 @@ Find the sum of all progressive perfect squares below one trillion
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 142 
-#+BEGIN_SRC python :tangle tangled/142.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/142.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 142
 =========================
@@ -3994,10 +3994,10 @@ y, x + z, x z, y + z, y z are all perfect squares.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 143 
-#+BEGIN_SRC python :tangle tangled/143.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/143.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 143
 =========================
@@ -4027,10 +4027,10 @@ triangles.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 144 
-#+BEGIN_SRC python :tangle tangled/144.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/144.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 144
 =========================
@@ -4071,10 +4071,10 @@ before exiting?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 145 
-#+BEGIN_SRC python :tangle tangled/145.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/145.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 145
 =========================
@@ -4091,10 +4091,10 @@ How many reversible numbers are there below one-billion (10^9)?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 146 
-#+BEGIN_SRC python :tangle tangled/146.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/146.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 146
 =========================
@@ -4107,10 +4107,10 @@ What is the sum of all such integers n below 150 million?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 147 
-#+BEGIN_SRC python :tangle tangled/147.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/147.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 147
 =========================
@@ -4137,10 +4137,10 @@ grids?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 148 
-#+BEGIN_SRC python :tangle tangled/148.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/148.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 148
 =========================
@@ -4164,10 +4164,10 @@ billion (10^9) rows of Pascal's triangle.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 149 
-#+BEGIN_SRC python :tangle tangled/149.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/149.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 149
 =========================
@@ -4206,10 +4206,10 @@ direction (horizontal, vertical, diagonal or anti-diagonal).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 150 
-#+BEGIN_SRC python :tangle tangled/150.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/150.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 150
 =========================
@@ -4251,10 +4251,10 @@ Find the smallest possible sub-triangle sum.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 151 
-#+BEGIN_SRC python :tangle tangled/151.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/151.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 151
 =========================
@@ -4284,10 +4284,10 @@ Give your answer rounded to six decimal places using the format x.xxxxxx .
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 152 
-#+BEGIN_SRC python :tangle tangled/152.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/152.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 152
 =========================
@@ -4306,10 +4306,10 @@ squares using distinct integers between 2 and 80 inclusive?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 153 
-#+BEGIN_SRC python :tangle tangled/153.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/153.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 153
 =========================
@@ -4367,10 +4367,10 @@ What is s(n) for 1 n 10^8?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 154 
-#+BEGIN_SRC python :tangle tangled/154.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/154.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 154
 =========================
@@ -4396,10 +4396,10 @@ of 10^12?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 155 
-#+BEGIN_SRC python :tangle tangled/155.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/155.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 155
 =========================
@@ -4429,10 +4429,10 @@ by:
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 156 
-#+BEGIN_SRC python :tangle tangled/156.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/156.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 156
 =========================
@@ -4479,10 +4479,10 @@ n is counted again for every value of d for which f(n,d)=n.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 157 
-#+BEGIN_SRC python :tangle tangled/157.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/157.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 157
 =========================
@@ -4500,10 +4500,10 @@ For n=1 this equation has 20 solutions that are listed below:
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 158 
-#+BEGIN_SRC python :tangle tangled/158.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/158.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 158
 =========================
@@ -4527,10 +4527,10 @@ What is the maximum value of p(n)?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 159 
-#+BEGIN_SRC python :tangle tangled/159.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/159.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 159
 =========================
@@ -4580,10 +4580,10 @@ Find mdrs(n) for 1 < n < 1,000,000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 160 
-#+BEGIN_SRC python :tangle tangled/160.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/160.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 160
 =========================
@@ -4600,10 +4600,10 @@ Find f(1,000,000,000,000)
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 161 
-#+BEGIN_SRC python :tangle tangled/161.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/161.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 161
 =========================
@@ -4623,10 +4623,10 @@ In how many ways can a 9 by 12 grid be tiled in this way by triominoes?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 162 
-#+BEGIN_SRC python :tangle tangled/162.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/162.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 162
 =========================
@@ -4654,10 +4654,10 @@ not: 1a3f and not 0x1a3f and not $1A3F and not #1A3F and not 0000001A3F)
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 163 
-#+BEGIN_SRC python :tangle tangled/163.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/163.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 163
 =========================
@@ -4688,10 +4688,10 @@ Find T(36).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 164 
-#+BEGIN_SRC python :tangle tangled/164.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/164.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 164
 =========================
@@ -4701,10 +4701,10 @@ three consecutive digits of n have a sum greater than 9?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 165 
-#+BEGIN_SRC python :tangle tangled/165.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/165.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 165
 =========================
@@ -4759,10 +4759,10 @@ segments?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 166 
-#+BEGIN_SRC python :tangle tangled/166.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/166.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 166
 =========================
@@ -4784,10 +4784,10 @@ each row, each column, and both diagonals have the same sum?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 167 
-#+BEGIN_SRC python :tangle tangled/167.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/167.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 167
 =========================
@@ -4806,10 +4806,10 @@ Find U(2,2n+1)[k] for 2 n 10, where k = 10^11.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 168 
-#+BEGIN_SRC python :tangle tangled/168.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/168.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 168
 =========================
@@ -4825,10 +4825,10 @@ have this property.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 169 
-#+BEGIN_SRC python :tangle tangled/169.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/169.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 169
 =========================
@@ -4849,10 +4849,10 @@ What is f(10^25)?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 170 
-#+BEGIN_SRC python :tangle tangled/170.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/170.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 170
 =========================
@@ -4875,10 +4875,10 @@ the input numbers is also a 0 to 9 pandigital 10-digit number?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 171 
-#+BEGIN_SRC python :tangle tangled/171.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/171.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 171
 =========================
@@ -4895,10 +4895,10 @@ f(n) is a perfect square.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 172 
-#+BEGIN_SRC python :tangle tangled/172.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/172.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 172
 =========================
@@ -4908,10 +4908,10 @@ digit occurs more than three times in n?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 173 
-#+BEGIN_SRC python :tangle tangled/173.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/173.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 173
 =========================
@@ -4929,10 +4929,10 @@ formed?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 174 
-#+BEGIN_SRC python :tangle tangled/174.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/174.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 174
 =========================
@@ -4954,10 +4954,10 @@ What is N(n) for 1 n 10?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 175 
-#+BEGIN_SRC python :tangle tangled/175.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/175.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 175
 =========================
@@ -4985,10 +4985,10 @@ Give your answer as comma separated integers, without any whitespaces.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 176 
-#+BEGIN_SRC python :tangle tangled/176.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/176.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 176
 =========================
@@ -5003,10 +5003,10 @@ Find the smallest integer that can be the length of a cathetus of exactly
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 177 
-#+BEGIN_SRC python :tangle tangled/177.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/177.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 177
 =========================
@@ -5031,10 +5031,10 @@ integral if it is within a tolerance of 10^-9 of an integer value.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 178 
-#+BEGIN_SRC python :tangle tangled/178.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/178.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 178
 =========================
@@ -5050,10 +5050,10 @@ How many pandigital step numbers less than 10^40 are there?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 179 
-#+BEGIN_SRC python :tangle tangled/179.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/179.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 179
 =========================
@@ -5064,10 +5064,10 @@ divisors 1, 2, 7, 14 while 15 has 1, 3, 5, 15.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 180 
-#+BEGIN_SRC python :tangle tangled/180.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/180.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 180
 =========================
@@ -5096,10 +5096,10 @@ Find u + v.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 181 
-#+BEGIN_SRC python :tangle tangled/181.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/181.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 181
 =========================
@@ -5114,10 +5114,10 @@ thus grouped?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 182 
-#+BEGIN_SRC python :tangle tangled/182.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/182.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 182
 =========================
@@ -5157,10 +5157,10 @@ minimum.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 183 
-#+BEGIN_SRC python :tangle tangled/183.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/183.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 183
 =========================
@@ -5190,10 +5190,10 @@ Find SD(N) for 5 N 10000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 184 
-#+BEGIN_SRC python :tangle tangled/184.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/184.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 184
 =========================
@@ -5216,10 +5216,10 @@ having all three vertices in I[105]?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 185 
-#+BEGIN_SRC python :tangle tangled/185.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/185.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 185
 =========================
@@ -5272,10 +5272,10 @@ Find the unique 16-digit secret sequence.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 186 
-#+BEGIN_SRC python :tangle tangled/186.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/186.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 186
 =========================
@@ -5315,10 +5315,10 @@ a friend, or a friend of a friend etc., of the Prime Minister?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 187 
-#+BEGIN_SRC python :tangle tangled/187.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/187.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 187
 =========================
@@ -5334,10 +5334,10 @@ distinct, prime factors?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 188 
-#+BEGIN_SRC python :tangle tangled/188.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/188.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 188
 =========================
@@ -5355,10 +5355,10 @@ Find the last 8 digits of 1777-^-^1855.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 189 
-#+BEGIN_SRC python :tangle tangled/189.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/189.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 189
 =========================
@@ -5380,10 +5380,10 @@ How many distinct valid colourings are there for the above configuration?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 190 
-#+BEGIN_SRC python :tangle tangled/190.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/190.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 190
 =========================
@@ -5399,10 +5399,10 @@ Find S[P[m]] for 2 m 15.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 191 
-#+BEGIN_SRC python :tangle tangled/191.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/191.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 191
 =========================
@@ -5427,10 +5427,10 @@ How many "prize" strings exist over a 30-day period?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 192 
-#+BEGIN_SRC python :tangle tangled/192.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/192.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 192
 =========================
@@ -5451,10 +5451,10 @@ denominator bound 10^12, where n is not a perfect square and 1 < n 100000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 193 
-#+BEGIN_SRC python :tangle tangled/193.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/193.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 193
 =========================
@@ -5466,10 +5466,10 @@ How many squarefree numbers are there below 2^50?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 194 
-#+BEGIN_SRC python :tangle tangled/194.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/194.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 194
 =========================
@@ -5490,10 +5490,10 @@ Find the last 8 digits of N(25,75,1984).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 195 
-#+BEGIN_SRC python :tangle tangled/195.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/195.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 195
 =========================
@@ -5510,10 +5510,10 @@ Find T(1053779).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 196 
-#+BEGIN_SRC python :tangle tangled/196.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/196.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 196
 =========================
@@ -5556,10 +5556,10 @@ Find  S(5678027) + S(7208785).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 197 
-#+BEGIN_SRC python :tangle tangled/197.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/197.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 197
 =========================
@@ -5573,10 +5573,10 @@ Give your answer with 9 digits after the decimal point.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 198 
-#+BEGIN_SRC python :tangle tangled/198.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/198.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 198
 =========================
@@ -5597,10 +5597,10 @@ denominator q does not exceed 10^8?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 199 
-#+BEGIN_SRC python :tangle tangled/199.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/199.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 199
 =========================
@@ -5621,10 +5621,10 @@ x.xxxxxxxx .
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 200 
-#+BEGIN_SRC python :tangle tangled/200.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/200.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 200
 =========================
@@ -5645,10 +5645,10 @@ Find the 200th prime-proof sqube containing the contiguous sub-string
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 201 
-#+BEGIN_SRC python :tangle tangled/201.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/201.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 201
 =========================
@@ -5691,10 +5691,10 @@ Determine the sum of all integers which are the sum of exactly one of the
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 202 
-#+BEGIN_SRC python :tangle tangled/202.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/202.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 202
 =========================
@@ -5717,10 +5717,10 @@ In how many ways can a laser beam enter at vertex C, bounce off
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 203 
-#+BEGIN_SRC python :tangle tangled/203.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/203.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 203
 =========================
@@ -5752,10 +5752,10 @@ Pascal's triangle.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 204 
-#+BEGIN_SRC python :tangle tangled/204.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/204.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 204
 =========================
@@ -5774,10 +5774,10 @@ exceed 10^9?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 205 
-#+BEGIN_SRC python :tangle tangled/205.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/205.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 205
 =========================
@@ -5795,10 +5795,10 @@ answer rounded to seven decimal places in the form 0.abcdefg
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 206 
-#+BEGIN_SRC python :tangle tangled/206.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/206.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 206
 =========================
@@ -5808,10 +5808,10 @@ Find the unique positive integer whose square has the form
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 207 
-#+BEGIN_SRC python :tangle tangled/207.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/207.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 207
 =========================
@@ -5844,10 +5844,10 @@ Find the smallest m for which P(m) < 1/12345
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 208 
-#+BEGIN_SRC python :tangle tangled/208.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/208.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 208
 =========================
@@ -5867,10 +5867,10 @@ position?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 209 
-#+BEGIN_SRC python :tangle tangled/209.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/209.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 209
 =========================
@@ -5897,10 +5897,10 @@ How many 6-input binary truth tables, τ, satisfy the formula
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 210 
-#+BEGIN_SRC python :tangle tangled/210.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/210.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 210
 =========================
@@ -5916,10 +5916,10 @@ Project Euler Problem 210
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 211 
-#+BEGIN_SRC python :tangle tangled/211.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/211.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 211
 =========================
@@ -5934,10 +5934,10 @@ square.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 212 
-#+BEGIN_SRC python :tangle tangled/212.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/212.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 212
 =========================
@@ -5974,10 +5974,10 @@ What is the combined volume of all 50000 cuboids, C[1],...,C[50000]?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 213 
-#+BEGIN_SRC python :tangle tangled/213.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/213.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 213
 =========================
@@ -5992,10 +5992,10 @@ bell? Give your answer rounded to six decimal places.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 214 
-#+BEGIN_SRC python :tangle tangled/214.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/214.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 214
 =========================
@@ -6024,10 +6024,10 @@ length 25?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 215 
-#+BEGIN_SRC python :tangle tangled/215.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/215.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 215
 =========================
@@ -6048,10 +6048,10 @@ Calculate W(32,10).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 216 
-#+BEGIN_SRC python :tangle tangled/216.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/216.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 216
 =========================
@@ -6065,10 +6065,10 @@ Project Euler Problem 216
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 217 
-#+BEGIN_SRC python :tangle tangled/217.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/217.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 217
 =========================
@@ -6087,10 +6087,10 @@ Find T(47) mod 3^15
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 218 
-#+BEGIN_SRC python :tangle tangled/218.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/218.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 218
 =========================
@@ -6115,10 +6115,10 @@ super-perfect?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 219 
-#+BEGIN_SRC python :tangle tangled/219.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/219.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 219
 =========================
@@ -6145,10 +6145,10 @@ What is Cost(10^9) ?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 220 
-#+BEGIN_SRC python :tangle tangled/220.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/220.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 220
 =========================
@@ -6178,10 +6178,10 @@ Give your answer in the form x,y with no spaces.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 221 
-#+BEGIN_SRC python :tangle tangled/221.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/221.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 221
 =========================
@@ -6200,10 +6200,10 @@ Find the 150000th Alexandrian integer.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 222 
-#+BEGIN_SRC python :tangle tangled/222.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/222.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 222
 =========================
@@ -6215,10 +6215,10 @@ Give your answer in micrometres (10^-6 m) rounded to the nearest integer.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 223 
-#+BEGIN_SRC python :tangle tangled/223.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/223.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 223
 =========================
@@ -6230,10 +6230,10 @@ How many barely acute triangles are there with perimeter ≤ 25,000,000?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 224 
-#+BEGIN_SRC python :tangle tangled/224.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/224.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 224
 =========================
@@ -6245,10 +6245,10 @@ How many barely obtuse triangles are there with perimeter ≤ 75,000,000?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 225 
-#+BEGIN_SRC python :tangle tangled/225.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/225.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 225
 =========================
@@ -6264,10 +6264,10 @@ sequence.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 226 
-#+BEGIN_SRC python :tangle tangled/226.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/226.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 226
 =========================
@@ -6291,10 +6291,10 @@ Give your answer rounded to eight decimal places in the form 0.abcdefgh
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 227 
-#+BEGIN_SRC python :tangle tangled/227.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/227.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 227
 =========================
@@ -6316,10 +6316,10 @@ Give your answer rounded to ten significant digits.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 228 
-#+BEGIN_SRC python :tangle tangled/228.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/228.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 228
 =========================
@@ -6346,10 +6346,10 @@ How many sides does S[1864] + S[1865] + … + S[1909] have?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 229 
-#+BEGIN_SRC python :tangle tangled/229.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/229.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 229
 =========================
@@ -6386,10 +6386,10 @@ How many such numbers are there that do not exceed 2×10^9?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 230 
-#+BEGIN_SRC python :tangle tangled/230.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/230.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 230
 =========================
@@ -6428,10 +6428,10 @@ Find ∑[n = 0,1,...,17]   10^n× D[A,B]((127+19n)×7^n).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 231 
-#+BEGIN_SRC python :tangle tangled/231.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/231.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 231
 =========================
@@ -6445,10 +6445,10 @@ Find the sum of the terms in the prime factorisation of
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 232 
-#+BEGIN_SRC python :tangle tangled/232.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/232.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 232
 =========================
@@ -6470,10 +6470,10 @@ Give your answer rounded to eight decimal places in the form 0.abcdefgh.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 233 
-#+BEGIN_SRC python :tangle tangled/233.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/233.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 233
 =========================
@@ -6487,10 +6487,10 @@ What is the sum of all positive integers N ≤ 10^11 such that f(N) = 42
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 234 
-#+BEGIN_SRC python :tangle tangled/234.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/234.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 234
 =========================
@@ -6514,10 +6514,10 @@ What is the sum of all semidivisible numbers not exceeding 999966663333?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 235 
-#+BEGIN_SRC python :tangle tangled/235.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/235.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 235
 =========================
@@ -6531,10 +6531,10 @@ Give your answer rounded to 12 places behind the decimal point.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 236 
-#+BEGIN_SRC python :tangle tangled/236.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/236.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 236
 =========================
@@ -6575,10 +6575,10 @@ u/v.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 237 
-#+BEGIN_SRC python :tangle tangled/237.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/237.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 237
 =========================
@@ -6599,10 +6599,10 @@ T(10) is 2329. What is T(10^12) modulo 10^8?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 238 
-#+BEGIN_SRC python :tangle tangled/238.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/238.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 238
 =========================
@@ -6646,10 +6646,10 @@ Find ∑ p(k), for 0 < k ≤ 2·10^15.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 239 
-#+BEGIN_SRC python :tangle tangled/239.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/239.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 239
 =========================
@@ -6667,10 +6667,10 @@ Give your answer rounded to 12 places behind the decimal point in the form
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 240 
-#+BEGIN_SRC python :tangle tangled/240.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/240.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 240
 =========================
@@ -6688,10 +6688,10 @@ rolled so that the top ten sum to 70?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 241 
-#+BEGIN_SRC python :tangle tangled/241.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/241.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 241
 =========================
@@ -6709,10 +6709,10 @@ form k + ^1⁄[2], where k is an integer.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 242 
-#+BEGIN_SRC python :tangle tangled/242.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/242.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 242
 =========================
@@ -6733,10 +6733,10 @@ How many odd-triplets are there with n ≤ 10^12?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 243 
-#+BEGIN_SRC python :tangle tangled/243.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/243.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 243
 =========================
@@ -6760,10 +6760,10 @@ Find the smallest denominator d, having a resilience R(d) < 15499/94744.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 244 
-#+BEGIN_SRC python :tangle tangled/244.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/244.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 244
 =========================
@@ -6809,10 +6809,10 @@ What is the sum of all checksums for the paths having the minimal length?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 245 
-#+BEGIN_SRC python :tangle tangled/245.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/245.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 245
 =========================
@@ -6835,10 +6835,10 @@ a unit fraction.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 246 
-#+BEGIN_SRC python :tangle tangled/246.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/246.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 246
 =========================
@@ -6866,10 +6866,10 @@ For how many lattice points P is angle RPS greater than 45 degrees?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 247 
-#+BEGIN_SRC python :tangle tangled/247.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/247.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 247
 =========================
@@ -6893,10 +6893,10 @@ What is the largest n for which the index of S[n] is (3,3)?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 248 
-#+BEGIN_SRC python :tangle tangled/248.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/248.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 248
 =========================
@@ -6907,10 +6907,10 @@ Find the 150,000th such number.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 249 
-#+BEGIN_SRC python :tangle tangled/249.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/249.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 249
 =========================
@@ -6923,10 +6923,10 @@ Enter the rightmost 16 digits as your answer.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 250 
-#+BEGIN_SRC python :tangle tangled/250.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/250.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 250
 =========================
@@ -6937,10 +6937,10 @@ rightmost 16 digits as your answer.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 251 
-#+BEGIN_SRC python :tangle tangled/251.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/251.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 251
 =========================
@@ -6958,10 +6958,10 @@ Find how many Cardano Triplets exist such that a+b+c ≤ 110,000,000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 252 
-#+BEGIN_SRC python :tangle tangled/252.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/252.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 252
 =========================
@@ -6993,10 +6993,10 @@ Specify your answer including one digit after the decimal point.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 253 
-#+BEGIN_SRC python :tangle tangled/253.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/253.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 253
 =========================
@@ -7064,10 +7064,10 @@ Give your answer rounded to six decimal places.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 254 
-#+BEGIN_SRC python :tangle tangled/254.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/254.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 254
 =========================
@@ -7090,10 +7090,10 @@ What is ∑ sg(i) for 1 ≤ i ≤ 150?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 255 
-#+BEGIN_SRC python :tangle tangled/255.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/255.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 255
 =========================
@@ -7138,10 +7138,10 @@ function respectively.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 256 
-#+BEGIN_SRC python :tangle tangled/256.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/256.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 256
 =========================
@@ -7185,10 +7185,10 @@ Find the smallest room-size s for which T(s) = 200.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 257 
-#+BEGIN_SRC python :tangle tangled/257.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/257.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 257
 =========================
@@ -7212,10 +7212,10 @@ area(ABC)/area(AEG) is integral?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 258 
-#+BEGIN_SRC python :tangle tangled/258.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/258.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 258
 =========================
@@ -7229,10 +7229,10 @@ Find g[k] mod 20092010 for k = 10^18.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 259 
-#+BEGIN_SRC python :tangle tangled/259.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/259.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 259
 =========================
@@ -7256,10 +7256,10 @@ What is the sum of all positive reachable integers?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 260 
-#+BEGIN_SRC python :tangle tangled/260.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/260.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 260
 =========================
@@ -7294,10 +7294,10 @@ configurations with x[i] ≤ y[i] ≤ z[i] ≤ 1000.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 261 
-#+BEGIN_SRC python :tangle tangled/261.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/261.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 261
 =========================
@@ -7319,10 +7319,10 @@ Find the sum of all distinct square-pivots ≤ 10^10.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 262 
-#+BEGIN_SRC python :tangle tangled/262.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/262.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 262
 =========================
@@ -7357,10 +7357,10 @@ def elevation(x, y):
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 263 
-#+BEGIN_SRC python :tangle tangled/263.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/263.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 263
 =========================
@@ -7390,10 +7390,10 @@ Find the sum of the first four engineers’ paradises.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 264 
-#+BEGIN_SRC python :tangle tangled/264.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/264.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 264
 =========================
@@ -7429,10 +7429,10 @@ places.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 265 
-#+BEGIN_SRC python :tangle tangled/265.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/265.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 265
 =========================
@@ -7462,10 +7462,10 @@ Find S(5).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 266 
-#+BEGIN_SRC python :tangle tangled/266.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/266.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 266
 =========================
@@ -7480,10 +7480,10 @@ Let p be the product of the primes below 190. Find PSR(p) mod 10^16.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 267 
-#+BEGIN_SRC python :tangle tangled/267.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/267.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 267
 =========================
@@ -7508,10 +7508,10 @@ answer rounded to 12 digits behind the decimal point in the form
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 268 
-#+BEGIN_SRC python :tangle tangled/268.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/268.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 268
 =========================
@@ -7524,10 +7524,10 @@ four distinct primes less than 100.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 269 
-#+BEGIN_SRC python :tangle tangled/269.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/269.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 269
 =========================
@@ -7551,10 +7551,10 @@ What is Z(10^16)?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 270 
-#+BEGIN_SRC python :tangle tangled/270.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/270.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 270
 =========================
@@ -7579,10 +7579,10 @@ What is C(30) mod 10^8?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 271 
-#+BEGIN_SRC python :tangle tangled/271.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/271.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 271
 =========================
@@ -7597,10 +7597,10 @@ Find S(13082761331670030).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 272 
-#+BEGIN_SRC python :tangle tangled/272.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/272.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 272
 =========================
@@ -7615,10 +7615,10 @@ Find the sum of the positive numbers n ≤ 10^11 for which C(n) = 242.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 273 
-#+BEGIN_SRC python :tangle tangled/273.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/273.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 273
 =========================
@@ -7640,10 +7640,10 @@ with 4k+1 < 150.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 274 
-#+BEGIN_SRC python :tangle tangled/274.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/274.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 274
 =========================
@@ -7672,10 +7672,10 @@ multipliers for the primes that are coprime to 10 and less than 10^7?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 275 
-#+BEGIN_SRC python :tangle tangled/275.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/275.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 275
 =========================
@@ -7702,10 +7702,10 @@ How many balanced sculptures are there of order 18?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 276 
-#+BEGIN_SRC python :tangle tangled/276.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/276.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 276
 =========================
@@ -7717,10 +7717,10 @@ exceeding 10 000 000?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 277 
-#+BEGIN_SRC python :tangle tangled/277.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/277.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 277
 =========================
@@ -7756,10 +7756,10 @@ What is the smallest a[1] > 10^15 that begins with the sequence
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 278 
-#+BEGIN_SRC python :tangle tangled/278.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/278.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 278
 =========================
@@ -7784,10 +7784,10 @@ Find ∑ f(p*q,p*r,q*r), where p, q and r are prime numbers and p < q < r <
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 279 
-#+BEGIN_SRC python :tangle tangled/279.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/279.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 279
 =========================
@@ -7797,10 +7797,10 @@ angle (measured in degrees), and a perimeter that does not exceed 10^8?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 280 
-#+BEGIN_SRC python :tangle tangled/280.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/280.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 280
 =========================
@@ -7820,10 +7820,10 @@ the top row? Give your answer rounded to 6 decimal places.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 281 
-#+BEGIN_SRC python :tangle tangled/281.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/281.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 281
 =========================
@@ -7844,10 +7844,10 @@ Find the sum of all f(m,n) such that f(m,n) ≤ 10^15.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 282 
-#+BEGIN_SRC python :tangle tangled/282.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/282.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 282
 =========================
@@ -7863,10 +7863,10 @@ Find A(n, n) and give your answer mod 14^8.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 283 
-#+BEGIN_SRC python :tangle tangled/283.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/283.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 283
 =========================
@@ -7885,10 +7885,10 @@ the area/perimeter ratios are equal to positive integers not exceeding
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 284 
-#+BEGIN_SRC python :tangle tangled/284.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/284.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 284
 =========================
@@ -7915,10 +7915,10 @@ the base 14 system using lower case letters where necessary.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 285 
-#+BEGIN_SRC python :tangle tangled/285.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/285.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 285
 =========================
@@ -7943,10 +7943,10 @@ the expected value of his total score, rounded to five decimal places?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 286 
-#+BEGIN_SRC python :tangle tangled/286.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/286.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 286
 =========================
@@ -7963,10 +7963,10 @@ Find q and give your answer rounded to 10 decimal places.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 287 
-#+BEGIN_SRC python :tangle tangled/287.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/287.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 287
 =========================
@@ -8005,10 +8005,10 @@ What is the length of the minimal sequence describing D[24]?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 288 
-#+BEGIN_SRC python :tangle tangled/288.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/288.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 288
 =========================
@@ -8029,10 +8029,10 @@ Find NF(61,10^7) mod 61^10.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 289 
-#+BEGIN_SRC python :tangle tangled/289.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/289.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 289
 =========================
@@ -8062,10 +8062,10 @@ Find L(6,10) mod 10^10.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 290 
-#+BEGIN_SRC python :tangle tangled/290.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/290.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 290
 =========================
@@ -8075,10 +8075,10 @@ digits of n equals the sum of digits of 137n?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 291 
-#+BEGIN_SRC python :tangle tangled/291.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/291.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 291
 =========================
@@ -8093,10 +8093,10 @@ Find how many Panaitopol primes are less than 5×10^15.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 292 
-#+BEGIN_SRC python :tangle tangled/292.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/292.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 292
 =========================
@@ -8119,10 +8119,10 @@ Find P(120).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 293 
-#+BEGIN_SRC python :tangle tangled/293.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/293.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 293
 =========================
@@ -8145,10 +8145,10 @@ numbers N less than 10^9.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 294 
-#+BEGIN_SRC python :tangle tangled/294.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/294.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 294
 =========================
@@ -8168,10 +8168,10 @@ Find S(11^12) and give your answer mod 10^9.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 295 
-#+BEGIN_SRC python :tangle tangled/295.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/295.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 295
 =========================
@@ -8206,10 +8206,10 @@ Find L(100 000).
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 296 
-#+BEGIN_SRC python :tangle tangled/296.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/296.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 296
 =========================
@@ -8225,10 +8225,10 @@ that BE has integral length?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 297 
-#+BEGIN_SRC python :tangle tangled/297.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/297.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 297
 =========================
@@ -8249,10 +8249,10 @@ Find ∑ z(n) for 0<n<10^17.
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 298 
-#+BEGIN_SRC python :tangle tangled/298.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/298.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 298
 =========================
@@ -8293,10 +8293,10 @@ places using the format x.xxxxxxxx .
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 299 
-#+BEGIN_SRC python :tangle tangled/299.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/299.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 299
 =========================
@@ -8329,10 +8329,10 @@ that point P exists?
 """
 
 
-#+END_SRC
+#+end_src
 
 * Problem 300 
-#+BEGIN_SRC python :tangle tangled/300.py :mkdirp yes :shebang "#!/usr/bin/env python3"
+#+begin_src python :tangle tangled/300.py :results output value :session :mkdirp yes
 """
 Project Euler Problem 300
 =========================
@@ -8373,5 +8373,5 @@ result.
 """
 
 
-#+END_SRC
+#+end_src
 
